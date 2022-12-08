@@ -1,15 +1,13 @@
 body {
 background: black;
 color: white;
-background-image: url('Files/background.gif');
-background-repeat: no-repeat;
-background-attachment: fixed; 
+background-image: url('Files/background.gif'); 
 background-size: cover;
 background-position:center;
 image-rendering: pixelated;
 image-rendering: -moz-crisp-edges;
 image-rendering: crisp-edges;
-    }
+}
 @font-face {
 font-family: "determination_sans_webregular";
 src: url("determinationsanswebregular-369x-webfont.woff") format("woff");
