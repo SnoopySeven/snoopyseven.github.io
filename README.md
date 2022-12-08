@@ -1,2 +1,2 @@
-# snoopyseven.github.io
-Poorly coded website with a sh*tty look😭
+# Website
+https://snoopyseven.github.io/
