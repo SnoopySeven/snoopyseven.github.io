@@ -1,1 +1,1 @@
-# snoopyseven.github.io
+# https://snoopyseven.github.io
