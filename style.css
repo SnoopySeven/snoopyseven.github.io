@@ -43,3 +43,6 @@ text-decoration: underline;
 .border {
 border: 3px solid #e30a90;
 }
+.welcome {
+font-size: 30px;
+}
