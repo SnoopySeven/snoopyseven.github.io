@@ -43,6 +43,9 @@ text-decoration: underline;
 img {
 border: 3px solid #6edb9c;
 }
+video {
+border: 3px solid #6edb9c;
+}
 .welcome {
 font-size: 30px;
 }
