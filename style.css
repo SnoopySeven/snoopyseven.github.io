@@ -28,12 +28,12 @@ text-decoration: none;
 a:visited {
 color: green;
 background-color: transparent;
-  text-decoration: none;
+text-decoration: none;
 }
 a:hover {
 color: #73e09f;
 background-color: transparent;
-  text-decoration: underline;
+text-decoration: underline;
 }
 a:active {
 color: yellow;
