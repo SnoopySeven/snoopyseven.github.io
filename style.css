@@ -3,8 +3,8 @@ body{background:#000;color:#fff;background-image:url(Files/background.gif);backg
 overflow: hidden;
 background-color: #18191c;
 }
-.topnav a {
-float:left;
+.topnav a{
+display:inline-block;
 text-align:center;
 padding: 15px 20px;
 font-size:25px;
@@ -12,9 +12,9 @@ color:#73e09f;
 text-decoration: none;
 }
 .topnav a:hover{
-color: green;
+color:green;
 }
-.topnav a.active {
-background-color: #04AA6D;
-color: white;
+.topnav a.active{
+background-color:#04AA6D;
+color:white;
 }
