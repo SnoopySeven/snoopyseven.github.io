@@ -1,1 +1,24 @@
-body{background:#000;color:#fff;background-image:url(Files/background.gif);background-size:cover;background-attachment:fixed;background-position:center;background-repeat:no-repeat;image-rendering:pixelated;image-rendering:-moz-crisp-edges;image-rendering:crisp-edges}@font-face{font-family:determination_sans_webregular;src:url(Files/determinationsanswebregular-369x-webfont.woff) format("woff")}body{font-family:determination_sans_webregular}p{font-size:23px}a:link{color:green;background-color:transparent;text-decoration:none}a:visited{color:green;background-color:transparent;text-decoration:none}a:hover{color:#73e09f;background-color:transparent;text-decoration:underline}a:active{color:#ff0;background-color:transparent;text-decoration:underline}.toptext{font-size:30px}.topnav{overflow:hidden;background-color:#36393f;}.topnav a{float: left;color: white;text-align: center;padding: 14px 16px;text-decoration:none;font-size:20px;}.topnav a:hover{background-color:#ddd;color:black;.topnav a.active{background-color: #04AA6D;color: white;}
+body{background:#000;color:#fff;background-image:url(Files/background.gif);background-size:cover;background-attachment:fixed;background-position:center;background-repeat:no-repeat;image-rendering:pixelated;image-rendering:-moz-crisp-edges;image-rendering:crisp-edges}@font-face{font-family:determination_sans_webregular;src:url(Files/determinationsanswebregular-369x-webfont.woff) format("woff")}body{font-family:determination_sans_webregular}p{font-size:23px}a:link{color:green;background-color:transparent;text-decoration:none}a:visited{color:green;background-color:transparent;text-decoration:none}a:hover{color:#73e09f;background-color:transparent;text-decoration:underline}a:active{color:#ff0;background-color:transparent;text-decoration:underline}.toptext{font-size:30px}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
