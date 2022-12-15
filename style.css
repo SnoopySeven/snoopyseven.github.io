@@ -73,3 +73,10 @@ li a:hover{
 .links a:active{
     color:yellow;
 }
+.grid{
+    display: grid;
+    grid-auto-flow: row;
+    gap: 4px;
+    -items: center;
+    justify-items: center;
+}
