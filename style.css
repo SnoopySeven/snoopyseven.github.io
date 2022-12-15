@@ -31,13 +31,14 @@ ul{
 }
 li{
     display: inline;
-    float:left
+    float:left;
+    padding: 0px 25px;
 }
 li a{
     display:block;
     color:#73e09f;
     text-align: center;
-    padding: 14px 20px;
+    padding: 15px 15px;
     text-decoration: none;
 }
 li a:hover{
