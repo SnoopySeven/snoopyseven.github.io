@@ -1,83 +1,92 @@
+/*Main CSS*/
 body{
-    font-family:determination_sans_webregular;
-    margin:0;
+    margin: 0;
     padding: 0;
-    background:black;
-    color:white;
+    background-color: black;
+    text-align: center;
+    image-rendering:pixelated;
+    image-rendering:-moz-crisp-edges;
+    image-rendering:crisp-edges;
+    font-family:determination_sans_webregular;
+
+    /* Background code for future use.
     background-image:url(Assets/background.gif);
     background-size:cover;
     background-attachment:fixed;
     background-position:center;
     background-repeat:no-repeat;
     image-rendering:pixelated;
-    image-rendering:-moz-crisp-edges;
-    image-rendering:crisp-edges;
+    */
+}
+p{
+    font-size: 20px;
+    margin: 0% 10%;
+    color: white;
+}
+h1{
+    color: #3F5FFF;
+    font-size: 45px;
+}
+h2{
+    color: #96A7FF;
+    font-size: 25px;
 }
 @font-face{
     font-family:determination_sans_webregular;
     src:url(Assets/determinationsanswebregular-369x-webfont.woff) format("woff");
 }
-h1{font-size: 50px;}h2{font-size: 35px;}p{font-size: 25px; text-align:center;margin: 0% 30%;}
-header{
-    background:#18191c;
-    padding: 1px 1px;
+
+/* Links */
+nav{
+    padding: 15px;
+    background-color: #18191c;
 }
-ul{
-    font-size: 25px;
-    margin:0;
-    padding:0;
-    list-style-type: none;
-    overflow: hidden;   
-}
-li{
-    display: inline;
-    float:left;
-    padding: 0px 25px;
-}
-li a{
-    display:block;
-    color:#73e09f;
-    text-align: center;
-    padding: 15px 15px;
-    text-decoration: none;
-}
-li a:hover{
-    color: white;
-}
-.active{
-    background-color: #04AA6D;
-    color: white;
-}
-.centered{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-.pfp{
-    padding: 0px 0px;
-}
-.bottomtext{
-    font-size: 20px;
-    color:gray;
-    padding: 100px 0px 0px;
+a{
+    color: #3F5FFF;
+    font-size: 30px;
+    padding: 15px 5%;
 }
 .links a:link{
-    color: #73e09f;
     text-decoration: none;
-}
-.links a:visited{
-    color: #73e09f;
 }
 .links a:hover{
     color: white;
 }
-.links a:active{
-    color:yellow;
+.active{
+    background-color: #3F5FFF;
+    color: white;
 }
+
+.miscellink a:link{
+    color: #96A7FF;
+    text-decoration: none;
+}
+.miscellink a:visited{
+    color: #96A7FF;
+}
+.miscellink a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/*Home*/
+#homeimage{
+    width: 25%;
+    height: 25%;
+    border: 3px solid #3F5FFF;
+}   
+.aboutme{
+    margin: 5% 10%;
+}
+
+/*Drawings*/
 .grid{
     display: grid;
     grid-auto-flow: row;
-    gap: 4px;
-    -items: center;
+    gap: 10px;
     justify-items: center;
+}
+.grid img{
+    width: 50%;
+    border: 3px solid #3F5FFF;
 }
