@@ -106,11 +106,11 @@ a{
 
 /*Diary*/
 .diary img{
-    width: 50%;
+    width: 25%;
     border: 3px solid #3F5FFF;
 }
 .diary video{
-    width: 50%;
+    width: 25%;
     border: 3px solid #3F5FFF;
 }
 
